@@ -1,0 +1,12 @@
+#sum of factorial
+n=int(input('enter n value:'))
+factorial=1
+sum=1
+for i in range(1,n+1):
+    factorial=factorial*i
+    sum=sum+factorial 
+print('the sum of factorials is:',sum)
+Output:
+enter n value:
+50
+the sum of factorials is: 31035053229546199656252032972759319953190362094566672920420940314
